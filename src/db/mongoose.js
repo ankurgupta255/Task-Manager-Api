@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 // const validator = require('validator')
 
-mongoose.connect(CONNECTION_URL, {
+mongoose.connect(process.env.CONNECTION_URL, {
     useNewUrlParser: true,
     useCreateIndex: true
 })
