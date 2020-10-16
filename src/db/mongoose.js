@@ -1,10 +1,10 @@
-const mongoose = require('mongoose')
+const mongoose = require("mongoose");
 // const validator = require('validator')
 
 mongoose.connect(process.env.CONNECTION_URL, {
-    useNewUrlParser: true,
-    useCreateIndex: true
-})
+  useNewUrlParser: true,
+  useCreateIndex: true,
+});
 
 // const User = mongoose.model('User', {
 //     name: {
